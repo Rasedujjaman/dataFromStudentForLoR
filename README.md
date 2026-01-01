@@ -1,9 +1,11 @@
-Quick Guide: Recommendation Template
-====================================
-
+Quick Guide: Template for the  Recommendation Letter
+=====================================================================
+Note:	This template is intended as a draft only. 
+	Your recommender will take care the final version, 
+	including the letterhead and any other required details.
+------------------------------------------------------------
 Follow the steps below carefully to complete your recommendation draft
 using the provided LaTeX template.
-
 ------------------------------------------------------------
 
 Step 1: Upload files to Overleaf
