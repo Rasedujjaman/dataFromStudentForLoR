@@ -1,87 +1,104 @@
-Quick Guide: Template for the  Recommendation Letter
-=====================================================================
-Note:	This template is intended as a draft only. 
-	Your recommender will take care the final version, 
-	including the letterhead and any other required details.
-------------------------------------------------------------
+# Quick Guide: Template for the  Recommendation Letter
+
+Note:	This template is intended as a draft only.
+Your recommender will take care the final version,
+including the letterhead and any other required details.
+---
+
 Follow the steps below carefully to complete your recommendation draft
 using the provided LaTeX template.
-------------------------------------------------------------
+---
 
-Step 1: Upload files to Overleaf
---------------------------------
-- Go to https://www.overleaf.com
-- Upload the entire file named:
+## Step 1: Upload files to Overleaf
 
-      dataFromStudentForLOR.zip
+* Go to https://www.overleaf.com
+* Upload the entire file named:
+
+dataFromStudentForLOR.zip
+
 
 Do NOT unzip the file before uploading. Overleaf will handle this
 automatically.
 
-------------------------------------------------------------
+---
 
-Step 2: Compile the project
----------------------------
-- Open the file main.tex
-- Click "Recompile" to view the generated document
+## Step 2: Compile the project
+
+* Open the file main.tex
+* Click "Recompile" to view the generated document
 
 This will show you a boilerplate example of how the final recommendation
 letter is expected to look.
 
-------------------------------------------------------------
+---
 
-Step 3: Edit only the required files
-------------------------------------
+## Step 3: Edit only the required files
+
 Modify ONLY the following three .tex files located in the folder:
 
-      studentTexFiles/
+&nbsp;     studentTexFiles/
+
 
 These files are specifically designed for you to enter your information.
 
 Important:
-- Do NOT modify main.tex outside of the designated areas
-- Do NOT edit any other files in the project
+
+* Do NOT modify main.tex outside of the designated areas
+* Do NOT edit any other files in the project
 
 The first paragraph, last paragraph, and the signature block in main.tex
 should NOT be changed. These sections are reserved for your recommender.
 
-------------------------------------------------------------
+---
 
-Step 4: Using commands correctly
---------------------------------
-When using any \newcommand defined in basicInfo.tex:
+## Step 4: Using commands correctly
 
-- Always add a trailing backslash (`\`) if a space is required after the
+When using any \\newcommand defined in basicInfo.tex:
+
+* Always add a trailing backslash (`\\`) if a space is required after the
   inserted information.
 
 Refer to the boilerplate examples in the student .tex files for correct
 usage and formatting.
 
-------------------------------------------------------------
+---
 
-Step 5: Review your draft
--------------------------
-- Recompile the document after every change
-- Carefully check for:
-  - spelling errors
-  - grammar mistakes
-  - formatting issues
-  - consistency of information
+## Step 5: Review your draft
+
+* Recompile the document after every change
+* Carefully check for:
+
+  * spelling errors
+  * grammar mistakes
+  * formatting issues
+  * consistency of information
 
 Ensure the document reads smoothly and professionally.
 
-------------------------------------------------------------
+---
 
-Step 6: Submit the files
-------------------------
-- Once complete, please email the updated zip file to your recommender using their official office email address.
+## Step 6: Review how many universities you are applying to
+
+* List the universities you are applying to
+* Make a new basicInfo.tex file for EACH application modifying the relevant commands
+* Check the draft for each university carefully
+
+---
+
+## Step 7: Submit the files
+
+* Once complete, please email the updated zip file to your recommender using their official office email address.
 
 Do NOT remove or rename any files inside the project before submission.
 
-------------------------------------------------------------
+Send all the basicInfo.tex files you created for each university along with the final zip file. 
 
-Notes
------
-- Follow instructions exactly to avoid formatting or compilation errors
-- If something does not compile, undo recent changes and recheck syntax
-- When in doubt, compare your edits with the provided boilerplate examples
+Please mention in the email which basicInfo.tex file corresponds to which university.
+
+---
+
+## Notes
+
+* Follow instructions exactly to avoid formatting or compilation errors
+* If something does not compile, undo recent changes and recheck syntax
+* When in doubt, compare your edits with the provided boilerplate examples
