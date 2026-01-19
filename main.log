@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999997 (TeX Live 2026/dev/Arch Linux) (preloaded format=xelatex 2026.1.6)  10 JAN 2026 20:01
+This is pdfTeX, Version 3.141592653-2.6-1.40.27 (TeX Live 2026/dev/Arch Linux) (preloaded format=pdflatex 2026.1.6)  19 JAN 2026 20:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -13,7 +13,7 @@ File: size12.clo 2024/06/29 v1.4n Standard LaTeX file (size option)
 )
 \longindentation=\dimen141
 \indentedwidth=\dimen142
-\labelcount=\count192
+\labelcount=\count196
 )
 (/usr/share/texmf-dist/tex/latex/geometry/geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
@@ -28,9 +28,9 @@ Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 (/usr/share/texmf-dist/tex/generic/iftex/iftex.sty
 Package: iftex 2024/12/12 v1.0g TeX engine tests
 ))
-\Gm@cnth=\count193
-\Gm@cntv=\count194
-\c@Gm@tempcnt=\count195
+\Gm@cnth=\count197
+\Gm@cntv=\count198
+\c@Gm@tempcnt=\count199
 \Gm@bindingoffset=\dimen143
 \Gm@wd@mp=\dimen144
 \Gm@odd@mp=\dimen145
@@ -41,14 +41,11 @@ Package: iftex 2024/12/12 v1.0g TeX engine tests
 \Gm@layoutvoffset=\dimen150
 \Gm@dimlist=\toks18
 )
-(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-xetex.def
-File: l3backend-xetex.def 2024-05-08 L3 backend support: XeTeX
-\g__graphics_track_int=\count196
+(/usr/share/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
+File: l3backend-pdftex.def 2024-05-08 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count266
 \l__pdf_internal_box=\box52
-\g__pdf_backend_annotation_int=\count197
-\g__pdf_backend_link_int=\count198
-)
-No file main.aux.
+) (./main.aux)
 \openout1 = `main.aux'.
 
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 6.
@@ -61,16 +58,15 @@ LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
-LaTeX Font Info:    Checking defaults for TU/lmr/m/n on input line 6.
-LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 6.
 LaTeX Font Info:    ... okay on input line 6.
+
 *geometry* driver: auto-detecting
-*geometry* detected driver: xetex
+*geometry* detected driver: pdftex
 *geometry* verbose mode - [ preamble ] result:
-* driver: xetex
+* driver: pdftex
 * paper: <default>
 * layout: <same size as paper>
 * layoutoffset:(h,v)=(0.0pt,0.0pt)
@@ -116,7 +112,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 
 [1
 
-]
+{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}]
 
 [2] (./main.aux)
  ***********
@@ -125,12 +121,19 @@ L3 programming layer <2025-01-18>
  ***********
  ) 
 Here is how much of TeX's memory you used:
- 1029 strings out of 475816
- 18335 string characters out of 5774717
- 410813 words of memory out of 5000000
- 24017 multiletter control sequences out of 15000+600000
- 561589 words of font info for 47 fonts, out of 8000000 for 9000
- 14 hyphenation exceptions out of 8191
- 57i,6n,65p,674b,107s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 1022 strings out of 475095
+ 17938 string characters out of 5765554
+ 412787 words of memory out of 5000000
+ 24077 multiletter control sequences out of 15000+600000
+ 561573 words of font info for 45 fonts, out of 8000000 for 9000
+ 59 hyphenation exceptions out of 8191
+ 57i,6n,65p,675b,107s stack positions out of 10000i,1000n,20000p,200000b,200000s
+</usr/share/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb></usr/share/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb>
+Output written on main.pdf (2 pages, 31185 bytes).
+PDF statistics:
+ 21 PDF objects out of 1000 (max. 8388607)
+ 12 compressed objects within 1 object stream
+ 0 named destinations out of 1000 (max. 500000)
+ 1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
-Output written on main.pdf (2 pages).

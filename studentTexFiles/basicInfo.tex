@@ -1,10 +1,6 @@
 %% =========================================================
-%% Basic Information of the Student (Recommendation Seeker)
-%% =========================================================
-%% Instructions:
-%% - Replace the placeholder text with your own information.
-%% - Keep ONLY ONE option where multiple choices are shown.
-%% - Delete the options you do not use.
+%% General Information of the Recommendation Seeker
+%% Applicable to Graduate and Short-Term Research Programs
 %% =========================================================
 
 
@@ -12,85 +8,96 @@
 %% Personal Information
 %% -------------------------------------------------------------------------
 
-% Title before your name
-% Choose ONE: Mr. / Ms. / Miss
-% Recommendation:
-% - Use "Mr." for male
-% - Use "Ms." for female (safe and professional; marital status neutral)
-% - Use "Miss" only if you explicitly prefer it
-\newcommand{\prefixOfStudentName}{Ms.}
+% Title before name
+% Example: Mr. / Ms.
+\newcommand{\prefixOfStudentName}{Ms.} % e.g., Ms.
 
-% Your first (given) name
-\newcommand{\firstNameOfStudent}{YourFirstName}
+% First (given) name
+\newcommand{\firstNameOfStudent}{yourFirstName} 
 
-% Your last (family) name
-\newcommand{\lastNameOfStudent}{YourLastName}
+% Last (family) name
+\newcommand{\lastNameOfStudent}{yourLastName} 
 
-% Your full name as you want it to appear officially
-% (Usually: FirstName + LastName)
-\newcommand{\fullNameOfStudent}{YourFirstName YourLastName}
+% Full name (official format)
+\newcommand{\fullNameOfStudent}{yourFullName} 
 
-% Pronouns (capitalized, for sentence beginnings)
-% Choose ONE option only
-\newcommand{\SheOrHe}{She}   % Options: She / He
+% Pronouns (capitalized, sentence start)
+\newcommand{\SheOrHe}{She} % e.g., She / He
 
-% Pronouns (lowercase, for use within sentences)
-% Choose ONE option only
-\newcommand{\sheORhe}{she}   % Options: she / he
+% Pronouns (lowercase, within sentences)
+\newcommand{\sheORhe}{she} % e.g., she / he
 
 % Possessive pronouns (capitalized)
-% Choose ONE option only
-\newcommand{\HerOrHis}{Her}  % Options: Her / His
+\newcommand{\HerOrHis}{Her} % e.g., Her / His
 
 % Possessive pronouns (lowercase)
-% Choose ONE option only
-\newcommand{\herORhis}{her}  % Options: her / his
+\newcommand{\herORhis}{her} % e.g., her / his
 
 % Reflexive pronouns (capitalized)
-% Choose ONE option only
-\newcommand{\HerselfOrHimself}{Herself}  % Options: Herself / Himself
+\newcommand{\HerselfOrHimself}{Herself} % e.g., Herself / Himself
 
 % Reflexive pronouns (lowercase)
-% Choose ONE option only
-\newcommand{\herselfORhimself}{herself}  % Options: herself / himself
+\newcommand{\herselfORhimself}{herself} % e.g., herself / himself
 
 
 %% ----------------------------------------------------------------
-%% Academic Information
+%% Academic Background
 %% ----------------------------------------------------------------
 
-% Your university registration / student ID number
-\newcommand{\registrationNumberOfStudent}{2019338099}
+% University registration or student ID (optional)
+\newcommand{\registrationNumberOfStudent}{XXXXXXXXXX} % e.g., 2019338099
 
-% Full name of your undergraduate department
-% Example: Electrical and Electronic Engineering, Physics, Mathematics
-\newcommand{\fullNameOfYourUndergaduateDept}{Electrical and Electronic Engineering}
+% Undergraduate department (full name)
+\newcommand{\fullNameOfYourUndergaduateDept}{Department Name} 
+% e.g., Electrical and Electronic Engineering
 
-% Short name / abbreviation of your undergraduate department
-% Example: EEE, PHY, MATH
-\newcommand{\shortNameOfYourUndergaduateDept}{EEE}
+% Department short name
+\newcommand{\shortNameOfYourUndergaduateDept}{DEPT} 
+% e.g., EEE
 
-% Your undergraduate admission session or academic year
-% Format example: 2020--2021
-\newcommand{\sessionOfStudent}{20xx--20xx}
+% Academic session
+\newcommand{\sessionOfStudent}{20xx--20xx} 
+% e.g., 2019--2023
 
 
 %% -------------------------------------------------------------------
-%% Graduate Program related Information
+%% Program Application Information (Unified)
 %% -------------------------------------------------------------------
 
-% In the department/institute you are applying to
-% Example: Dept. of Electrical \& Computer Engineering
-% Example: Dept. of Physics
-\newcommand{\deptApplyingForAdmission}{DepartmentName}
+% Program, degree, or research scheme applied for
+\newcommand{\programOrDegreeApplyingFor}{Program or Degree Name} 
+% e.g., MSc in Electrical Engineering
+% e.g., PhD in Physics
+% e.g., Summer Research Programme
 
-% Degree, you are applying for
-% Example: MSc in Electrical Engineering
-% Example: PhD in Astronomy
-\newcommand{\degreeApplyingForAdmission}{MSc in Electrical Engineering}
 
-% Name of the university you are applying to
-\newcommand{\nameOfUniversity}{University of XYZ}
+% Category of the program
+\newcommand{\typeOfProgram}{Program Type} 
+% e.g., Graduate Degree Program
+% e.g., Doctoral Program
+% e.g., Short-Term Research Program
 
-% Country where the university is located
-\newcommand{\locationOfUniversity}{CountryName}
+
+% Degree status
+\newcommand{\degreeStatus}{Degree or Non-degree Status} 
+% e.g., MSc in Electrical Engineering
+% e.g., PhD in Optics
+% e.g., Non-degree Research
+
+
+% Department or institute (if applicable)
+\newcommand{\deptApplyingForAdmission}{Department or Institute Name} 
+% e.g., Department of Electrical Engineering
+% e.g., Institute of Astronomy
+
+
+% Host institution
+\newcommand{\nameOfUniversity}{University or Institution Name} 
+% e.g., University of XYZ
+% e.g., European Southern Observatory (ESO)
+
+
+% Location of the institution
+\newcommand{\locationOfUniversity}{Country or Location} 
+% e.g., Germany
+% e.g., United States
